@@ -1,0 +1,187 @@
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Styles required only for the example above */
+.scrollspy-example {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+  }
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.navbar{
+    background-image: linear-gradient(to right, #55286F,#BC96E6);
+}
+
+.navbar-brand img:hover{
+    color: violet;
+}
+ul li a{
+    color: white;
+}
+/* unvisited link */
+ul li a:link {
+    color: white;
+  }
+  
+  /* visited link */
+ ul li a:visited {
+    color: #55286F;
+  }
+  
+  /* mouse over link */
+ ul li a:hover {
+    color: #55286F;
+  }
+  
+  /* selected link */
+ ul li a:active {
+    color: #0000FF;
+  }
+
+.dropdown-menu{
+    background-image: linear-gradient(to right, #55286F,#BC96E6);
+}
+.dropdown-menu .dropdown-item{
+    color: white;
+}
+.dropdown-menu .dropdown-item:hover{
+    color: inherit;
+    background-color: white;
+}
+#aboutUsHeader{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 70px;
+    padding: 25px;
+    color: #55286F;
+    font-weight: 600;
+
+}
+#aboutUsDescription{
+   
+    padding: 10px;
+}
+#aboutusimage{
+    padding: 10px;
+    height: 500px;
+}
+
+#servicesHeader{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 70px;
+    padding: 25px;
+    color: #55286F;
+    font-weight: 600;
+
+}
+.fa-code{
+    font-size: 50px;
+    color: #55286F;
+    margin: 10px;
+}
+.fa-wordpress{
+    font-size: 50px;
+    color: #55286F;
+    margin: 10px;
+}
+.fa-camera-retro{
+    font-size: 50px;
+    color: #55286F;
+    margin: 10px;
+}
+.fa-facebook-square{
+    font-size: 50px;
+    color: #55286F;
+    margin: 10px;
+}
+.fa-camera{
+    font-size: 50px;
+    color: #55286F;
+    margin: 10px;
+}
+.moreServices{
+    background-color: #55286F;
+    color: white;
+    margin: 50px;
+}
+#clientsHeader{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 70px;
+    padding: 25px;
+    color: #55286F;
+    font-weight: 600;
+}
+#clients .row .col{
+    background-color: green;
+    width: 100%;
+    float: right;
+}
+#teamHeader{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 70px;
+    padding: 25px;
+    color: #55286F;
+    font-weight: 600;
+}
+#team .row .btn{
+    color: #55286F;
+}
+
+#contactHeader{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 70px;
+    padding: 25px;
+    color: #55286F;
+    font-weight: 600;
+}
+#blogHeader{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 70px;
+    padding: 25px;
+    color: #55286F;
+    font-weight: 600;
+}
+#contact{
+    margin-top: 4rem;
+    margin-bottom: 25px;
+}
+#contact form .btn{
+    color: white;
+    background-image:linear-gradient(to right, #55286F,#BC96E6);;
+}
+#blog{
+    margin: 10px;
+}
+#blog div .btn{
+    color: #55286F;
+}
